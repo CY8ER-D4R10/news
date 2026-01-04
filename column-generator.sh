@@ -11,6 +11,7 @@
 
 JSON_FILE="$HOME/news/schlagzeilen.json"
 BASE_DIR="$HOME/news/rubriken"
+KOLUMNE_DIR="$HOME/news/kolumne"
 
 mkdir -p "$BASE_DIR"
 
@@ -21,6 +22,18 @@ jq -r '.headlines[].category' "$JSON_FILE" | sort -u | while read -r category; d
   if [ ! -d "$target_dir" ]; then
     mkdir -p "$target_dir"
     echo "Directory crated: $target_dir"
+  else
+    echo "Directory already exists, skipping: $target_dir"
+  fi
+done
+
+# Create a folder for each month of the year under kolumne/
+months=("January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December")
+for month in "${months[@]}"; do
+  target_dir="$KOLUMNE_DIR/$month"
+  if [ ! -d "$target_dir" ]; then
+    mkdir -p "$target_dir"
+    echo "Directory created: $target_dir"
   else
     echo "Directory already exists, skipping: $target_dir"
   fi
