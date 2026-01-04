@@ -7,6 +7,7 @@ WSL Starten
 `news` Ordner im HOME Verzeichnis löschen.
 
 ```
+cd ~
 git clone https://github.com/Kalbskinder/m122.git
 ```
 
