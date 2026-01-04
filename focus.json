@@ -3,21 +3,21 @@
         "category": ["Politik", "Politics", "Sport"]
     },
     "dienstag": {
-        "category": []
+        "category": ["Economy", "Wirtschaft", "Technology"]
     },
     "mittwoch": {
-        "category": []
+        "category": ["Science", "Wissenschaft", "Kultur"]
     },
     "donnerstag": {
-        "category": []
+        "category": ["Society", "Bildung"]
     },
     "freitag":  {
-        "category": []
+        "category": ["Umwelt", "Reisen"]
     },
     "samstag": {
-        "category": []
+        "category": ["Wetter", "Aussland"]
     },
     "sonntag": {
-        "category": []
+        "category": ["Innland", "Sport"]
     }
 }
