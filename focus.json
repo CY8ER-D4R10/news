@@ -1,12 +1,12 @@
 {
     "montag": {
-        "category": ["Politik", "Politics", "Sport"]
+        "category": ["Politik", "Sport"]
     },
     "dienstag": {
-        "category": ["Economy", "Wirtschaft", "Technology"]
+        "category": ["Wirtschaft", "Technology"]
     },
     "mittwoch": {
-        "category": ["Science", "Wissenschaft", "Kultur"]
+        "category": ["Wissenschaft", "Kultur"]
     },
     "donnerstag": {
         "category": ["Society", "Bildung"]
