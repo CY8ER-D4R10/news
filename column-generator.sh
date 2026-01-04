@@ -13,6 +13,9 @@ JSON_FILE="$HOME/news/schlagzeilen.json"
 BASE_DIR="$HOME/news/rubriken"
 KOLUMNE_DIR="$HOME/news/kolumne"
 
+DATUM=$(date +%Y-%m-%d)
+MONTH=$(date +%B)
+
 mkdir -p "$BASE_DIR"
 
 # Create a folder for each category under rubriken/
@@ -38,3 +41,12 @@ for month in "${months[@]}"; do
     echo "Directory already exists, skipping: $target_dir"
   fi
 done
+
+# Create a folder of the current date in the current month's kolumne directory
+today_dir="$KOLUMNE_DIR/$MONTH/$DATUM"
+if [ ! -d "$today_dir" ]; then
+  mkdir -p "$today_dir"
+  echo "Directory created: $today_dir"
+else
+  echo "Directory already exists, skipping: $today_dir"
+fi
