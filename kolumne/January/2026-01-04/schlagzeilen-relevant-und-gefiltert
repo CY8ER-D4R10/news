@@ -1,0 +1,58 @@
+[
+  {
+    "headline": "Franzosen protestieren gegen Rentenreform",
+    "newspaper": "Le Journal Social",
+    "category": "Innland",
+    "position": 3,
+    "country": "Frankreich"
+  },
+  {
+    "headline": "Polish farmers protest rising fuel prices",
+    "newspaper": "Krakow Daily",
+    "category": "Innland",
+    "position": 8,
+    "country": "Polen"
+  },
+  {
+    "headline": "Poland opens new high‑speed rail corridor",
+    "newspaper": "Warsaw Mobility News",
+    "category": "Innland",
+    "position": 6,
+    "country": "Polen"
+  },
+  {
+    "headline": "Französische Polizei verhindert Cyberangriff",
+    "newspaper": "Le Monde Sécurité",
+    "category": "Innland",
+    "position": 2,
+    "country": "Frankreich"
+  },
+  {
+    "headline": "US sports league introduces new playoff system",
+    "newspaper": "American Sports Wire",
+    "category": "Sport",
+    "position": 2,
+    "country": "USA"
+  },
+  {
+    "headline": "German health ministry presents new hospital reform",
+    "newspaper": "Gesundheit Heute",
+    "category": "Innland",
+    "position": 4,
+    "country": "Deutschland"
+  },
+  {
+    "headline": "France strengthens national flood protection program",
+    "newspaper": "Sécurité Nationale France",
+    "category": "Innland",
+    "position": 7,
+    "country": "Frankreich"
+  },
+  {
+    "headline": "Czech government expands electric vehicle infrastructure",
+    "newspaper": "Prague Mobility Daily",
+    "category": "Innland",
+    "position": 4,
+    "country": "Tschechien"
+  }
+]

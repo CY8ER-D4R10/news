@@ -1,23 +1,23 @@
 {
-    "montag": {
+    "Monday": {
         "category": ["Politik", "Sport"]
     },
-    "dienstag": {
+    "Tuesday": {
         "category": ["Wirtschaft", "Technology"]
     },
-    "mittwoch": {
+    "Wednesday": {
         "category": ["Wissenschaft", "Kultur"]
     },
-    "donnerstag": {
+    "Thursday": {
         "category": ["Society", "Bildung"]
     },
-    "freitag":  {
+    "Friday":  {
         "category": ["Umwelt", "Reisen"]
     },
-    "samstag": {
+    "Saturday": {
         "category": ["Wetter", "Aussland"]
     },
-    "sonntag": {
+    "Sunday": {
         "category": ["Innland", "Sport"]
     }
 }
