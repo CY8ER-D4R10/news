@@ -1,0 +1,23 @@
+{
+    "montag": {
+        "category": ["Politik", "Politics", "Sport"]
+    },
+    "dienstag": {
+        "category": []
+    },
+    "mittwoch": {
+        "category": []
+    },
+    "donnerstag": {
+        "category": []
+    },
+    "freitag":  {
+        "category": []
+    },
+    "samstag": {
+        "category": []
+    },
+    "sonntag": {
+        "category": []
+    }
+}

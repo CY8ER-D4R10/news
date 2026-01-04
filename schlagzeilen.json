@@ -1,0 +1,354 @@
+{
+  "headlines": [
+    {
+      "headline": "Regierung kündigt neue Digitalstrategie an",
+      "newspaper": "Frankfurter Morgenpost",
+      "category": "Politik",
+      "position": 3,
+      "country": "Deutschland"
+    },
+    {
+      "headline": "Economy shows unexpected growth in Q3",
+      "newspaper": "New York Times",
+      "category": "Economy",
+      "position": 1,
+      "country": "USA"
+    },
+    {
+      "headline": "Schweizer Forschende entdecken neue Eisstruktur",
+      "newspaper": "Neue Zürcher Wissenschaft",
+      "category": "Wissenschaft",
+      "position": 2,
+      "country": "Schweiz"
+    },
+    {
+      "headline": "Österreich plant Ausbau erneuerbarer Energien",
+      "newspaper": "Wiener Tagesblick",
+      "category": "Wirtschaft",
+      "position": 4,
+      "country": "Österreich"
+    },
+    {
+      "headline": "UK government faces pressure over healthcare reforms",
+      "newspaper": "The London Herald",
+      "category": "Politics",
+      "position": 5,
+      "country": "Grossbritanien"
+    },
+    {
+      "headline": "Französische Polizei verhindert Cyberangriff",
+      "newspaper": "Le Monde Sécurité",
+      "category": "Innland",
+      "position": 2,
+      "country": "Frankreich"
+    },
+    {
+      "headline": "Belgische Wirtschaft kämpft mit Lieferengpässen",
+      "newspaper": "Bruxelles Économie",
+      "category": "Wirtschaft",
+      "position": 6,
+      "country": "Belgien"
+    },
+    {
+      "headline": "Norwegen verzeichnet Rekordzahlen im Tourismus",
+      "newspaper": "Oslo Daily",
+      "category": "Reisen",
+      "position": 3,
+      "country": "Norwegen"
+    },
+    {
+      "headline": "Polen erhöht Verteidigungsausgaben",
+      "newspaper": "Warszawa Times",
+      "category": "Politik",
+      "position": 1,
+      "country": "Polen"
+    },
+    {
+      "headline": "Czech scientists develop new battery material",
+      "newspaper": "Prague Science Review",
+      "category": "Science",
+      "position": 7,
+      "country": "Tschechien"
+    },
+    {
+      "headline": "Schweizer Regierung debattiert über neue Klimaziele",
+      "newspaper": "Berner Kurier",
+      "category": "Politik",
+      "position": 4,
+      "country": "Schweiz"
+    },
+    {
+      "headline": "US tech companies announce major AI partnership",
+      "newspaper": "The Silicon Valley Post",
+      "category": "Technology",
+      "position": 2,
+      "country": "USA"
+    },
+    {
+      "headline": "Österreichische Forscher entdecken seltene Pflanzenart",
+      "newspaper": "Salzburger Wissenschaftsjournal",
+      "category": "Wissenschaft",
+      "position": 5,
+      "country": "Österreich"
+    },
+    {
+      "headline": "British economy sees rising inflation concerns",
+      "newspaper": "The Financial Guardian",
+      "category": "Economy",
+      "position": 7,
+      "country": "Grossbritanien"
+    },
+    {
+      "headline": "Franzosen protestieren gegen Rentenreform",
+      "newspaper": "Le Journal Social",
+      "category": "Innland",
+      "position": 3,
+      "country": "Frankreich"
+    },
+    {
+      "headline": "Belgische Polizei zerschlägt internationales Betrugsnetzwerk",
+      "newspaper": "Brussels Security News",
+      "category": "Aussland",
+      "position": 6,
+      "country": "Belgien"
+    },
+    {
+      "headline": "Schwedisches Start-up entwickelt neue Solartechnologie",
+      "newspaper": "Stockholm Science Daily",
+      "category": "Wissenschaft",
+      "position": 4,
+      "country": "Schweden"
+    },
+    {
+      "headline": "Norwegen verstärkt Meeresschutzprogramme",
+      "newspaper": "Nordic Environment Times",
+      "category": "Umwelt",
+      "position": 2,
+      "country": "Norwegen"
+    },
+    {
+      "headline": "Polish farmers protest rising fuel prices",
+      "newspaper": "Krakow Daily",
+      "category": "Innland",
+      "position": 8,
+      "country": "Polen"
+    },
+    {
+      "headline": "Tschechische Regierung investiert in öffentliche Verkehrsmittel",
+      "newspaper": "Prague Transit Journal",
+      "category": "Politik",
+      "position": 5,
+      "country": "Tschechien"
+    },
+    {
+      "headline": "Deutsche Autoindustrie kündigt neue E‑Mobilitätsplattform an",
+      "newspaper": "Auto Report Deutschland",
+      "category": "Wirtschaft",
+      "position": 1,
+      "country": "Deutschland"
+    },
+    {
+      "headline": "US meteorologists warn of severe winter storms",
+      "newspaper": "National Weather Bulletin",
+      "category": "Wetter",
+      "position": 3,
+      "country": "USA"
+    },
+    {
+      "headline": "Austrian tourism sector expects strong summer season",
+      "newspaper": "Wiener Reiseblatt",
+      "category": "Reisen",
+      "position": 9,
+      "country": "Österreich"
+    },
+    {
+      "headline": "UK scientists decode deep-sea microbial ecosystem",
+      "newspaper": "British Science Observer",
+      "category": "Science",
+      "position": 4,
+      "country": "Grossbritanien"
+    },
+    {
+      "headline": "French wine production reaches historic high",
+      "newspaper": "La Tribune Viticole",
+      "category": "Wirtschaft",
+      "position": 6,
+      "country": "Frankreich"
+    },
+    {
+      "headline": "Belgium announces new national cybersecurity strategy",
+      "newspaper": "Belgian National Tech Review",
+      "category": "Politik",
+      "position": 7,
+      "country": "Belgien"
+    },
+    {
+      "headline": "Swedish parliament debates extended parental leave policies",
+      "newspaper": "Stockholm Politik Direkt",
+      "category": "Politik",
+      "position": 3,
+      "country": "Schweden"
+    },
+    {
+      "headline": "Norwegian fishermen report unusual fish migration patterns",
+      "newspaper": "Nordic Marine Journal",
+      "category": "Wissenschaft",
+      "position": 5,
+      "country": "Norwegen"
+    },
+    {
+      "headline": "Poland opens new high‑speed rail corridor",
+      "newspaper": "Warsaw Mobility News",
+      "category": "Innland",
+      "position": 6,
+      "country": "Polen"
+    },
+    {
+      "headline": "Czech artists launch international cultural festival",
+      "newspaper": "Prague Culture Times",
+      "category": "Kultur",
+      "position": 2,
+      "country": "Tschechien"
+    },
+    {
+      "headline": "German health ministry presents new hospital reform",
+      "newspaper": "Gesundheit Heute",
+      "category": "Innland",
+      "position": 4,
+      "country": "Deutschland"
+    },
+    {
+      "headline": "US Senate discusses nationwide data privacy law",
+      "newspaper": "The Capitol Chronicle",
+      "category": "Politics",
+      "position": 8,
+      "country": "USA"
+    },
+    {
+      "headline": "Austrian climate researchers warn of glacier loss acceleration",
+      "newspaper": "Alpenforschung Österreich",
+      "category": "Umwelt",
+      "position": 2,
+      "country": "Österreich"
+    },
+    {
+      "headline": "UK rail workers announce nationwide strike",
+      "newspaper": "The London Transit Report",
+      "category": "Society",
+      "position": 5,
+      "country": "Grossbritanien"
+    },
+    {
+      "headline": "France launches major space‑tech investment program",
+      "newspaper": "Le Monde Scientifique",
+      "category": "Wissenschaft",
+      "position": 6,
+      "country": "Frankreich"
+    },
+    {
+      "headline": "Belgian schools introduce new digital literacy curriculum",
+      "newspaper": "Brussels Education Daily",
+      "category": "Bildung",
+      "position": 3,
+      "country": "Belgien"
+    },
+    {
+      "headline": "Swedish scientists develop eco‑friendly packaging alternative",
+      "newspaper": "Sustainable Sweden",
+      "category": "Umwelt",
+      "position": 7,
+      "country": "Schweden"
+    },
+    {
+      "headline": "Norway prepares national strategy for AI regulation",
+      "newspaper": "Oslo Policy Review",
+      "category": "Politik",
+      "position": 1,
+      "country": "Norwegen"
+    },
+    {
+      "headline": "Polish government expands renewable wind projects",
+      "newspaper": "Green Poland Today",
+      "category": "Umwelt",
+      "position": 4,
+      "country": "Polen"
+    },
+    {
+      "headline": "Czech Republic records strongest economy growth in decade",
+      "newspaper": "Prague Economic Review",
+      "category": "Wirtschaft",
+      "position": 5,
+      "country": "Tschechien"
+    },
+    {
+      "headline": "German universities join international research alliance",
+      "newspaper": "Forschung Aktuell",
+      "category": "Wissenschaft",
+      "position": 6,
+      "country": "Deutschland"
+    },
+    {
+      "headline": "US sports league introduces new playoff system",
+      "newspaper": "American Sports Wire",
+      "category": "Sport",
+      "position": 2,
+      "country": "USA"
+    },
+    {
+      "headline": "Austria reports decline in unemployment rates",
+      "newspaper": "Österreich Wirtschaft Heute",
+      "category": "Wirtschaft",
+      "position": 3,
+      "country": "Österreich"
+    },
+    {
+      "headline": "UK launches nationwide tree‑planting initiative",
+      "newspaper": "Green Britain Gazette",
+      "category": "Umwelt",
+      "position": 2,
+      "country": "Grossbritanien"
+    },
+    {
+      "headline": "France strengthens national flood protection program",
+      "newspaper": "Sécurité Nationale France",
+      "category": "Innland",
+      "position": 7,
+      "country": "Frankreich"
+    },
+    {
+      "headline": "Belgian tech companies push for EU‑wide AI standards",
+      "newspaper": "Belgium Tech Beacon",
+      "category": "Technology",
+      "position": 1,
+      "country": "Belgien"
+    },
+    {
+      "headline": "Sweden experiences strongest housing market growth in years",
+      "newspaper": "Stockholm Real Estate Watch",
+      "category": "Wirtschaft",
+      "position": 5,
+      "country": "Schweden"
+    },
+    {
+      "headline": "Norwegian researchers map deep‑ocean methane emissions",
+      "newspaper": "NordOcean Research",
+      "category": "Wissenschaft",
+      "position": 3,
+      "country": "Norwegen"
+    },
+    {
+      "headline": "Polish education ministry introduces digital textbooks nationwide",
+      "newspaper": "Polska Edukacja",
+      "category": "Bildung",
+      "position": 1,
+      "country": "Polen"
+    },
+    {
+      "headline": "Czech government expands electric vehicle infrastructure",
+      "newspaper": "Prague Mobility Daily",
+      "category": "Innland",
+      "position": 4,
+      "country": "Tschechien"
+    }
+  ]
+}
