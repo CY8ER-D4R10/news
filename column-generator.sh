@@ -4,7 +4,7 @@ export KOLUMNISTIN="Simon & Dario"
 
 # Author: Simon, Dario
 # Created: 16.12.2025
-# Last Modified: 04.01.2026
+# Last Modified: 11.01.2026
 # Description: Read data from a webscraper and format the information into categorized content.
 # 
 # How to use:
@@ -121,17 +121,17 @@ cat <<EOF >> "$HTML_FILE"
 
 <h1>$TITLE</h1>
 
-<!-- Einleitung: Vorstellung des Themas -->
+<!-- Einleitung -->
 <section id="einleitung">
   <p>Hier folgt die Einleitung der Kolumne.</p>
 </section>
 
-<!-- Hauptteil: Meinungen und Argumente -->
+<!-- Hauptteil -->
 <section id="hauptteil">
   <p>Hier folgt der Hauptteil mit Meinungen und Argumenten.</p>
 </section>
 
-<!-- Schluss: Zusammenfassung in einer Botschaft -->
+<!-- Schluss -->
 <section id="schluss">
   <p>Hier folgt der Schluss der Kolumne.</p>
 </section>
