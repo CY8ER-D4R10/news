@@ -86,7 +86,6 @@ fi
 # Define HTML file
 HTML_FILE="$today_dir/kolumne-$DATUM.html"
 
-
 # Title (placeholder)
 TITLE="Tägliche Kolumne vom $DATUM"
 
