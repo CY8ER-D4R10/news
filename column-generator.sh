@@ -1,5 +1,7 @@
 #! /bin/bash
 
+export KOLUMNISTIN="Simon & Dario"
+
 # Author: Simon, Dario
 # Created: 16.12.2025
 # Last Modified: 04.01.2026
@@ -80,3 +82,85 @@ else
   echo "No focus categories found for $WEEKDAY"
   echo "[]" > "$filtered_file"
 fi
+
+# Define HTML file
+HTML_FILE="$today_dir/kolumne-$DATUM.html"
+
+
+# Title (placeholder)
+TITLE="Tägliche Kolumne vom $DATUM"
+
+# Categories of the day as a string
+RUBRIKEN=$(echo "$focus_categories" | paste -sd " & " -)
+
+# HTML Basicstructure + Head
+cat <<EOF > "$HTML_FILE"
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="$KOLUMNISTIN">
+  <meta name="created" content="$DATUM">
+  <meta name="modified" content="$DATUM">
+  <meta name="section" content="$RUBRIKEN">
+  <meta name="publication-date" content="">
+EOF
+
+# Insert sources as meta tags
+counter=1
+jq -r '.[].headline' "$filtered_file" | while read -r headline; do
+  echo "  <meta name=\"source-$counter\" content=\"$headline\">" >> "$HTML_FILE"
+  counter=$((counter + 1))
+done
+
+# Title + Body Start
+cat <<EOF >> "$HTML_FILE"
+  <title>$TITLE</title>
+</head>
+
+<body>
+
+<h1>$TITLE</h1>
+
+<!-- Einleitung: Vorstellung des Themas -->
+<section id="einleitung">
+  <p>Hier folgt die Einleitung der Kolumne.</p>
+</section>
+
+<!-- Hauptteil: Meinungen und Argumente -->
+<section id="hauptteil">
+  <p>Hier folgt der Hauptteil mit Meinungen und Argumenten.</p>
+</section>
+
+<!-- Schluss: Zusammenfassung in einer Botschaft -->
+<section id="schluss">
+  <p>Hier folgt der Schluss der Kolumne.</p>
+</section>
+
+<!-- Über die Autor:innen -->
+<section id="autor">
+  <p>Diese Kolumne wurde verfasst von $KOLUMNISTIN. Wir schreiben regelmässig über aktuelle gesellschaftliche, politische und wirtschaftliche Themen.</p>
+</section>
+
+</body>
+</html>
+EOF
+
+# Log entry
+echo "$(date '+%Y-%m-%d %H:%M:%S') HTML Template erfolgreich erstellt" \
+  | sudo tee -a /var/log/column-creation.log > /dev/null
+
+# Archive sources as CSV
+jq -r '.[] | "\(.category),\(.headline),\(.newspaper)"' "$filtered_file" \
+| while IFS=',' read -r category headline newspaper; do
+
+  CSV_FILE="$BASE_DIR/$category/Zeitungsartikel-$DATUM.csv"
+
+  if [ ! -f "$CSV_FILE" ]; then
+    echo "headline,newspaper" > "$CSV_FILE"
+  fi
+
+  echo "\"$headline\",\"$newspaper\"" >> "$CSV_FILE"
+done
+
+echo "HTML Kolumne erfolgreich erstellt: $HTML_FILE"
